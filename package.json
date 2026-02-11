@@ -4,7 +4,7 @@
   "description": "basic backend tutorial",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only task-api-backend/src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
